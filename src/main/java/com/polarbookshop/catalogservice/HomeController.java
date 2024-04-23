@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class HomeController {
 
-    @GetMapping("/")
-    public String getGreeting() {
-        return "Welcome to the book catalog!";
-    }
+	@GetMapping("/")
+	public String getGreeting() {
+		return "Welcome to the book catalog!";
+	}
 
 }
